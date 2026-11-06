@@ -82,6 +82,12 @@ Python_for_interview_2026/
     ├── 02_project11_turtle_race.py             # Lec 122 (Project 11: Turtle Race Project)
     ├── 03_higher_order_functions_event_listeners_sketch.py # Lec 123 - 125 (Higher Order Functions, Event Listeners, Ex 33 Etch-A-Sketch)
     └── 04_colorgram_rgb_extraction_hirst_painting.py # Lec 126 (Colorgram RGB extraction & Damien Hirst Spot Painting)
+│
+└── fastAPI/                                    # ⚡ TechSimPlus Learnings Complete FastAPI Backend Playlist (26 Tutorials)
+    ├── 01_fastapi_introduction_and_architecture.py
+    ├── 02_setup_environment_and_uvicorn.py
+    ├── ... (26 in-depth conceptual files with detailed Hinglish comments)
+    └── README.md                               # Complete FastAPI Course Syllabus & Guide
 ```
 
 ---
