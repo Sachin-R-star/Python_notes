@@ -62,3 +62,4 @@ uvicorn fastAPI.26_full_crash_course_genai_langchain_api:app --reload
 
 Uske baad browser me Swagger Documentation open karo:
 👉 **`http://127.0.0.1:8000/docs`**
+

@@ -122,3 +122,4 @@ def delete_task(task_id: int):
         del IN_MEMORY_TASKS[task_id]
     # 204 No Content response body should be empty
     return None
+

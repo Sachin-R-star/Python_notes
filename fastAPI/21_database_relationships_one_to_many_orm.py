@@ -137,3 +137,4 @@ def get_user_and_their_tasks(user_id: int, db: Session = Depends(get_db)):
     """
     user = db.query(User).filter(User.id == user_id).first()
     return user
+

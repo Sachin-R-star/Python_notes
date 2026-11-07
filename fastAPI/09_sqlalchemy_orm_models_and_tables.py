@@ -90,3 +90,4 @@ if __name__ == "__main__":
     # This inspects Base subclasses and executes CREATE TABLE
     Base.metadata.create_all(bind=engine)
     print("\nSUCCESS: Tables 'users' and 'tasks' created successfully in database!")
+

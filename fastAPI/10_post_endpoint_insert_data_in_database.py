@@ -119,3 +119,4 @@ def create_new_task(task: TaskCreate, db: Session = Depends(get_db)):
 
     # 5. Return the ORM object (FastAPI serializes it using TaskResponse)
     return db_task
+

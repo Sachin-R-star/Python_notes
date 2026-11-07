@@ -128,3 +128,4 @@ def get_user_profile(user_id: int):
     # Even though we return the entire dictionary containing 'hashed_password',
     # FastAPI's response_model=UserPublicResponse filters it out automatically!
     return MOCK_USER_DB[user_id]
+

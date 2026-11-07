@@ -143,3 +143,4 @@ def register_user(user_in: UserRegister, db: Session = Depends(get_db)):
     db.refresh(new_user)
 
     return new_user
+

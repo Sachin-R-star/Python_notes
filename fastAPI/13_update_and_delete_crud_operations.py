@@ -41,6 +41,12 @@ engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
+
+
+
+
+
+
 class Task(Base):
     __tablename__ = "tasks_demo_13"
     id = Column(Integer, primary_key=True, index=True)
@@ -57,6 +63,13 @@ def get_db():
         yield db
     finally:
         db.close()
+
+
+
+
+
+
+
 
 
 # Pydantic Schemas
@@ -80,6 +93,10 @@ app = FastAPI(
     description="PUT, PATCH and DELETE implementations with full SQLAlchemy database persistence",
     version="1.0.0"
 )
+
+
+
+
 
 # Startup seed
 @app.on_event("startup")
@@ -163,3 +180,4 @@ def delete_existing_task(
 
     # 4. Return standard 204 empty response
     return Response(status_code=status.HTTP_204_NO_CONTENT)
+

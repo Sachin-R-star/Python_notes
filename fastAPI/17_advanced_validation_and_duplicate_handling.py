@@ -71,3 +71,4 @@ def register_with_advanced_checks(user: UserRegisterAdvanced):
         "message": f"User {user.username} successfully passed all security and complexity verifications!",
         "email": user.email
     }
+

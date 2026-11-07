@@ -142,3 +142,4 @@ def get_admin_dashboard(current_user: dict = Depends(require_role("admin"))):
         },
         "admin": current_user["name"]
     }
+

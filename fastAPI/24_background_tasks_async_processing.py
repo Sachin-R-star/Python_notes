@@ -91,3 +91,4 @@ def checkout_order(order: OrderRequest, background_tasks: BackgroundTasks):
         "customer": order.customer_name,
         "item": order.item
     }
+

@@ -70,6 +70,7 @@ SessionLocal = sessionmaker(
     bind=engine        # Engine se bind kiya
 )
 
+
 # Base class for all ORM Models
 Base = declarative_base()
 
@@ -110,3 +111,4 @@ def test_db_connection(db: Session = Depends(get_db)):
         "session_active": db.is_active,
         "message": "SQLAlchemy Database Session successfully initialized and ready for CRUD operations!"
     }
+

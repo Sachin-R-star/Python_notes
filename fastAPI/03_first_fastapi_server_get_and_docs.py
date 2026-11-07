@@ -49,6 +49,9 @@ app = FastAPI(
 )
 
 
+
+
+
 # --- Endpoint 1: Root Greeting ---
 @app.get("/", tags=["General"])
 def root_endpoint():
@@ -69,6 +72,9 @@ def root_endpoint():
     }
 
 
+
+
+
 # --- Endpoint 2: Static Products Listing ---
 @app.get("/products", tags=["Products"])
 def get_all_products():
@@ -87,9 +93,17 @@ def get_all_products():
     }
 
 
+
+
+
+
+
+
+
+
 # --- Endpoint 3: About Server & Developer Info ---
 @app.get("/about", tags=["General"])
-def get_about_info():
+def get_about_info():""
     """
     ## About Service
     API metadata aur backend developer credentials return karta hai.
@@ -99,3 +113,7 @@ def get_about_info():
         "purpose": "Mastering FastAPI for High-Performance Backend Engineering",
         "year": 2026
     }
+
+
+
+

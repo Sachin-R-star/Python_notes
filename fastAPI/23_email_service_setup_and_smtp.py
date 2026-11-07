@@ -125,3 +125,4 @@ def send_notification_email(req: EmailRequest):
         "message": f"Email successfully dispatched to {req.recipient_email}",
         "subject": req.subject
     }
+

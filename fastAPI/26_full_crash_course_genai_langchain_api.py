@@ -175,3 +175,4 @@ def get_user_chat_history(user_id: str, db: Session = Depends(get_db)):
         }
         for r in records
     ]
+

@@ -105,8 +105,14 @@ async def async_demonstration():
     }
 
 
+
+
+
+
+
 # Code Run Karne Ka Tareeqa:
 # 1. Terminal open karo
 # 2. Command chalao: uvicorn 01_fastapi_introduction_and_architecture:app --reload
 # 3. Browser me open karo: http://127.0.0.1:8000
 # 4. Interactive documentation dekho: http://127.0.0.1:8000/docs
+

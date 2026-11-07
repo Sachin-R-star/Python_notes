@@ -108,6 +108,7 @@ def get_orders():
     ]
 
 
+
 # ==============================================================================
 # 3. MAIN APPLICATION (Simulating app/main.py)
 # ==============================================================================
@@ -132,3 +133,4 @@ def home():
         ],
         "tip": "Swagger UI (/docs) par jao aur dekho dono routers kaise alag-alag groups me categorize hue hain!"
     }
+

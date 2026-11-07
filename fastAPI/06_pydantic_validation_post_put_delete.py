@@ -176,3 +176,4 @@ def delete_product(product_id: int):
         )
     del PRODUCTS_DB[product_id]
     return None
+

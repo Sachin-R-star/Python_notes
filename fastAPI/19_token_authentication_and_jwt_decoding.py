@@ -101,3 +101,4 @@ def verify_token_endpoint(token_payload: dict = Depends(decode_and_verify_token)
         "user_role": token_payload.get("role"),
         "full_token_claims": token_payload
     }
+

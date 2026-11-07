@@ -141,3 +141,4 @@ def fetch_all_tasks(
     tasks = query.offset(skip).limit(limit).all()
 
     return tasks
+

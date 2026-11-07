@@ -123,3 +123,4 @@ def login_for_access_token(credentials: LoginRequest):
         "token_type": "bearer",
         "expires_in_minutes": ACCESS_TOKEN_EXPIRE_MINUTES
     }
+
